@@ -12,8 +12,8 @@ Write a Mosaic generator in Javascript that implements the following logic:
 
 Constraints and success criteria:
 
-* tiles should be rendered a complete row at a time (a user should never see a row with some completed tiles and some incomplete)
 * the mosaic should be rendered from the top row to the bottom row. That is, the top row should be completely rendered before the second row rendering commences, and so on
+* Within a row, tiles can be rendered in any order. 
 * The client app should make effective use of parallelism and asynchrony.
 * You should use ES6 syntax.
 * You are not expected to use any non-core frameworks such as jquery, react or angular.
